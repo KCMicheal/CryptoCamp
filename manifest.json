@@ -1,3 +1,4 @@
+{
 "name": "Cryptocamp",
 "description": "Cryptocamp",
 "version": "1.1",
@@ -12,10 +13,19 @@
   "default_icon": "assets/icon-32.png",
   "default_popup": "popup/popup.html"
 },
-"icons": {
-  "16": "assets/icon-16.png",
-  "32": "assets/icon-32.png",
-  "48": "assets/icon-48.png",
-  "128": "assets/icon-128.png"
-},
+"icons": [
+    {
+        "src": "/assets/favicon-16x16.png"
+    },
+    {
+        "src": "/assets/favicon-32x32.png"
+    },
+    {
+        "src": "/assets/android-chrome-48x48.png"
+    },
+    {
+        "src": "/assets/android-chrome-128x128.png"
+    }
+],
 "key": "MIIBIjANBgk..."
+}
